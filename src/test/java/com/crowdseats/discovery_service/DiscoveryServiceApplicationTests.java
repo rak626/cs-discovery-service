@@ -1,10 +1,10 @@
-package com.crowdseats.cs_discovery_service;
+package com.crowdseats.discovery_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CsDiscoveryServiceApplicationTests {
+class DiscoveryServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
