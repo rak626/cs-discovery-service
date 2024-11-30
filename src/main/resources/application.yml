@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cs-discovery-service
+server:
+  port: 4400
+eureka:
+  instance:
+    hostname: localhost
+    port: 4400
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
