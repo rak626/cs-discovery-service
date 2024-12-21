@@ -1,4 +1,4 @@
-package com.crowdseats.discovery_service;
+package com.crowdseats.discovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
