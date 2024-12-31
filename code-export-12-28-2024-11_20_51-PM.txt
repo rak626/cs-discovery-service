@@ -1,0 +1,42 @@
+// Title of the flowchart
+title API Gateway and Services Flowchart
+
+// Define the API Gateway
+
+// Define the services
+
+// Define the database tables
+API_Gateway [label:API Gateway, shape:rectangle, icon:globe]
+User_Service [label:User Service, shape:rectangle, icon:user]
+Event_Service [label:Event Service, shape:rectangle, icon:calendar]
+Pricing_Service [label:Pricing Service, shape:rectangle, icon:dollar-sign]
+Booking_Service [label:Booking Service, shape:rectangle, icon:book]
+Payment_Service [label:Payment Service, shape:rectangle, icon:credit-card]
+Notification_Service [label:Notification Service, shape:rectangle, icon:bell]
+Admin_Panel_Service [label:Admin Panel Service, shape:rectangle, icon:settings]
+API_Gateway [label:API Gateway, shape:rectangle, icon:globe]
+User_Service [label:User Service, shape:rectangle, icon:user]
+Event_Service [label:Event Service, shape:rectangle, icon:calendar]
+Pricing_Service [label:Pricing Service, shape:rectangle, icon:dollar-sign]
+Booking_Service [label:Booking Service, shape:rectangle, icon:book]
+Payment_Service [label:Payment Service, shape:rectangle, icon:credit-card]
+Notification_Service [label:Notification Service, shape:rectangle, icon:bell]
+Admin_Panel_Service [label:Admin Panel Service, shape:rectangle, icon:settings]
+
+// Connect services to the API Gateway
+
+// Connect services to their respective database tables
+
+// Define interactions between services
+User_Service > API_Gateway: User Management
+Event_Service > API_Gateway: Event Data
+Pricing_Service > API_Gateway: Pricing Info
+Booking_Service > API_Gateway: Bookings
+Payment_Service > API_Gateway: Payments
+Notification_Service > API_Gateway: Notifications
+Admin_Panel_Service > API_Gateway: Admin Actions
+Booking_Service > Payment_Service: Process Payments
+Payment_Service > Notification_Service: Send Payment Notification
+Booking_Service > Notification_Service: Send Booking Notification
+Booking_Service > Event_Service: Check Availability
+Booking_Service > Pricing_Service: Get Pricing
